@@ -81,3 +81,4 @@ print 'You are {height}, {weight}'.format(height=height, weight=weight)
 print 'You are {height}, {weight}'.format(weight=weight, height=height)
 ```
 
+[format-string-syntax 详细说明](https://docs.python.org/2/library/string.html#format-string-syntax)
