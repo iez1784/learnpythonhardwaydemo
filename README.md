@@ -1,4 +1,4 @@
-# learnpythonhardwaydemo
+# learn python hard way demo
 Learn Python for private
 
-init
+Exercise  https://learnpythonthehardway.org/book/
