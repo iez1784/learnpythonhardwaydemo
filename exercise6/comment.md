@@ -38,21 +38,25 @@ but the others are used for displaying to users.
 ``%r`` 表示通过``repr()``内建方法来转化Python对象. 
 
 - Question 2
+
 What's the point of %s and %d when you can just use %r?
 The %r is best for debugging, and the other formats are for actually displaying variables to users.
 
 - Question 3
+
 I get the error TypeError: not all arguments converted during string formatting.
 You need to make sure that the line of code is exactly the same. 
 What happens in this error is you have more % format characters in the string than variables to put in them. 
 Go back and figure out what you did wrong.
 
 - Question 4
+
 Why do you put ' (single-quotes) around some strings and not others?
 Mostly it's because of style, but I'll use a single-quote inside a string that has double-quotes. 
 Look at line 10 to see how I'm doing that.
 
 
 - Question 5
+
 If you thought the joke was funny could you write hilarious = True?
 Yes, and you'll learn more about these boolean values in Exercise 27.
